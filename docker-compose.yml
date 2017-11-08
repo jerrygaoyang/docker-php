@@ -42,7 +42,7 @@ php-nginx:
         - "443:443"
     volumes: 
         - ./www:/var/www
-        - ./php/php.ini:/etc/php/fpm/php.ini
+        - ./php/php.ini:/etc/php/7.0/fpm/php.ini
         - ./nginx:/etc/nginx/sites-enabled
     command: docker-entrypoint.sh
     restart: always
