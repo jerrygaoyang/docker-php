@@ -1,10 +1,10 @@
 # docker-compose 构建lnmp
 
 ### 下载 docker-compose.yml 等配置文件
-> git clone https://github.com/JerryGaoyang/docker.git
+> git clone https://github.com/JerryGaoyang/docker-php.git
 
 ### 拉取镜像并启动容器
-> cd docker
+> cd docker-php
 
 > docker-compose up -d
 
