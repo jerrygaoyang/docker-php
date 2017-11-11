@@ -44,7 +44,6 @@ php-nginx:
         - ./www:/var/www
         - ./php/php.ini:/etc/php/7.0/fpm/php.ini
         - ./nginx:/etc/nginx/sites-enabled
-    command: docker-entrypoint.sh
     restart: always
     
 phpmyadmin:
